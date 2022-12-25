@@ -11,4 +11,4 @@
 - The Project took almost 6 hrs to complete.
 
 ## live link
-(Netlify) [ ]
+[Netlify](https://cssproject-13.netlify.app "LIVE LINE")
