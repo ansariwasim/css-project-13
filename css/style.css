@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bg{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero1{
+    border-radius:8px;
+    width:48vw;
+    height: 100vh;
+}
+
+.hero1 header{
+    height: 250px;
+    background:linear-gradient(#253898,#c06af1);
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 10px;
+}
+
+.navbar img{
+    height: 15px;
+    color: white;
+    margin-left: 15px;
+}
+
+.unorder-list{
+    display: flex;
+    margin-right:30px;
+}
+
+.unorder-list li {
+    list-style-type: none;
+    color: white;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-right: 14px;
+}
+
+.nav-btn{
+    width: 85px;
+    height:27px;
+    border: 2px solid transparent;
+    border-radius:2px;
+    background-color: #02B290;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding: 2px;
+}
+
+.nav-btn:hover{
+    background-color: aliceblue;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+
+
+
+.header-down{
+    display: flex;
+    justify-content: space-between;
+}
+.head-right img{
+    height:180px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.head-left{
+    margin-top: 30px;
+    margin-left:15px ;
+    width: 300px;
+}
+
+.head-left h1{
+    font-size:25px;
+    color: white;
+}
+
+.head-left p{
+    color: white;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.head-right-btn{
+    width:120px;
+    height:27px;
+    border: 2px solid transparent;
+    border-radius:2px;
+    background-color: #02B290;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding: 2px;
+    font-weight:500;
+    margin-top: 10px;
+}
+
+.head-right-btn:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+
+/* #################################################### */
+
+.hero2 header{
+    height:230px;
+    background:linear-gradient(#253898,#c06af1);
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar2{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 10px;
+}
+
+.navbar2 img{
+    height: 15px;
+    color: white;
+    margin-left: 15px;
+}
+
+.unorder-list2{
+    display: flex;
+    margin-right:30px;
+}
+
+.unorder-list2 li {
+    list-style-type: none;
+    color: white;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-right: 14px;
+}
+
+.nav-btn2{
+    width: 85px;
+    height:27px;
+    border: 2px solid transparent;
+    border-radius:2px;
+    background-color: #02B290;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding: 2px;
+}
+
+
+
+.hero2{
+    border-radius:8px;
+    width: 48vw;
+    height:96vh;
+    margin-right:8px;
+    margin-top: 20px;
+}
+
+
+
+.header-down2{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.head-right2 img{
+    height:180px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.head-left2{
+    margin-top: 30px;
+    margin-left:15px ;
+    width: 300px;
+}
+
+.head-left2 h1{
+    font-size:25px;
+    color: white;
+}
+
+.head-left2 p{
+    color: white;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+/* 11111111111111111111111111111111111111111111111111111111 */
+
+.box1{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+}
+
+.box1-left img{
+    height:170px;
+    margin-left: 15px;
+}
+
+.box2-right{
+    margin-right:40px;
+}
+
+
+
+.first-line{
+    height:55px;
+    margin-left: 10px;
+    position:relative;
+    bottom:15px;
+}
+
+.first-line p{
+    font-size: 10px;
+}
+
+.fa-solid{
+    font-size: 13px;
+    position:relative;
+    right:22px;
+    top: 17px;
+}
+
+
+/* card ////////////////////////////cards */
+
+.box2 h3{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    line-height: 20px;
+}
+.cards{
+    display: flex;
+    margin-top: 10px;
+}
+
+
+.card{
+    width: 132px;
+    height: 100px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding:2px;
+    margin-left: 20px;
+    border-radius:6px ;
+    background-color: rgb(248, 207, 207);
+    font-family: 'Roboto', sans-serif;
+}
+
+[alt="png-img"]{
+height:40px;
+background-color: #ca84f3;
+padding:10px;
+border-radius: 50px;
+}
+
+
+
+.card h5{
+margin-top:8px;
+z-index:1;
+}
+.card p{
+    font-size: 10px;
+    z-index: 1;
+}
+
+.mini-box{
+    background-color: #ca84f3;
+    padding:1px;
+    border-radius:5px;
+}
